@@ -11,8 +11,12 @@ Handlebars.registerHelper("nl2br", function(value) {
 	return (value || "").replace(/\n/g, "</p><p>");
 });
 
-Handlebars.registerHelper("formatDate", function(value) {
+Handlebars.registerHelper("formatDateMonthYear", function(value) {
 	return value ? moment(value.toString(), ['YYYY-MM-DD']).format('MMM YYYY') : "";
+});
+
+Handlebars.registerHelper("formatDateYear", function(value) {
+	return value ? moment(value.toString(), ['YYYY-MM-DD']).format('YYYY') : "";
 });
 
 function render(resume) {

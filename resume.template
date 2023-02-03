@@ -129,7 +129,7 @@
 				<h4 class="strike-through">
 					<span>{{company}}</span>
 					<span class="date">
-						{{formatDate startDate}} — {{formatDate endDate}}
+						{{formatDateMonthYear startDate}} — {{formatDateMonthYear endDate}}
 					</span>
 				</h4>
 				{{#website}}
@@ -173,7 +173,7 @@
 				<h4 class="strike-through">
 					<span>{{organization}}</span>
 					<span class="date">
-						{{formatDate startDate}} — {{formatDate endDate}}
+						{{formatDateMonthYear startDate}} — {{formatDateMonthYear endDate}}
 					</span>
 				</h4>
 				{{#website}}
@@ -218,7 +218,7 @@
 				<h4 class="strike-through">
 					<span>{{institution}}</span>
 					<span class="date">
-						{{formatDate startDate}} — {{formatDate endDate}}
+						{{formatDateYear startDate}} — {{formatDateYear endDate}}
 					</span>
 				</h4>
 				{{#area}}
