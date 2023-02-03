@@ -16,7 +16,6 @@
 	
 	</head>
 	<body>
-	
 	<header id="header">
 		<div class="container">
 			<div class="row">
@@ -130,7 +129,7 @@
 				<h4 class="strike-through">
 					<span>{{company}}</span>
 					<span class="date">
-						{{MY startDate}} — {{MY endDate}}
+						{{formatDate startDate}} — {{formatDate endDate}}
 					</span>
 				</h4>
 				{{#website}}
@@ -174,7 +173,7 @@
 				<h4 class="strike-through">
 					<span>{{organization}}</span>
 					<span class="date">
-						{{MY startDate}} — {{MY endDate}}
+						{{formatDate startDate}} — {{formatDate endDate}}
 					</span>
 				</h4>
 				{{#website}}
@@ -219,7 +218,7 @@
 				<h4 class="strike-through">
 					<span>{{institution}}</span>
 					<span class="date">
-						{{MY startDate}} — {{MY endDate}}
+						{{formatDate startDate}} — {{formatDate endDate}}
 					</span>
 				</h4>
 				{{#area}}

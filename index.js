@@ -5,6 +5,14 @@ module.exports = {
 	render: render
 };
 
+Handlebars.registerHelper("nl2br", function(value) {
+	return (value || "").replace(/\n/g, "</p><p>");
+});
+
+Handlebars.registerHelper("formatDate", function(value) {
+	return moment(date.toString(), ['YYYY-MM-DD']).format('MMM YYYY');
+});
+
 function render(resume) {
 	var css = fs.readFileSync(__dirname + "/style.css", "utf-8");
 	var template = fs.readFileSync(__dirname + "/resume.template", "utf-8");
@@ -13,7 +21,3 @@ function render(resume) {
 		resume: resume
 	});
 }
-
-Handlebars.registerHelper("nl2br", function(value) {
-	return (value || "").replace(/\n/g, "</p><p>");
-});
