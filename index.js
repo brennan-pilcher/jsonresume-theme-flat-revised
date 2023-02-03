@@ -12,7 +12,7 @@ Handlebars.registerHelper("nl2br", function(value) {
 });
 
 Handlebars.registerHelper("formatDate", function(value) {
-	return moment(value.toString(), ['YYYY-MM-DD']).format('MMM YYYY');
+	return value ? moment(value.toString(), ['YYYY-MM-DD']).format('MMM YYYY') : "";
 });
 
 function render(resume) {
