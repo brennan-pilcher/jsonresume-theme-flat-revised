@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-flat",
-  "version": "0.3.7",
-  "description": "A theme for JSON Resume",
+  "name": "jsonresume-theme-flat-revised",
+  "version": "0.0.1",
+  "description": "A theme for JSON Resume, forked from Mattias Erming's Flat theme",
   "author": "Mattias Erming",
   "repository": {
     "type": "git",
-    "url": "http://github.com/erming/jsonresume-theme-flat"
+    "url": "http://github.com/brennan-pilcher/jsonresume-theme-flat-revised"
   },
   "scripts": {
     "start": "resume serve"

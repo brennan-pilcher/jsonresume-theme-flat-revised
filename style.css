@@ -1,17 +1,16 @@
-@import url(
-	https://fonts.googleapis.com/css?family=Lato:400,700
-);
+@import url(https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Raleway:wght@400;600;700&display=swap);
+
 body {
-	background: #fff;
-	font-family: Lato, sans-serif;
+	background: #FFF9FB;
+	font-family: 'Cabin', sans-serif;
 	margin: 0 0 80px;
 }
 a {
-	color: #2ecc71;
+	color: #158cc4;
 }
 a:focus,
 a:hover {
-	color: #f1c40f;
+	color: #FF5618;
 	text-decoration: none;
 }
 p {
@@ -25,6 +24,8 @@ h1,
 h2,
 h3,
 h4 {
+	font-family: 'Raleway', serif;
+	font-weight: 600;
 	margin-top: 0
 }
 section {
@@ -35,12 +36,11 @@ li {
 	list-style: none;
 }
 li:before {
-	content: "\f052";
+	content: "❯";
+	color: #949292;
 	float: left;
-	font: 13px Octicons;
-	margin-top: 6px;
 	margin-left: -20px;
-	opacity: .1;
+	opacity: .8;
 	position: absolute;
 }
 blockquote {
@@ -70,16 +70,21 @@ h4 span:first-child {
 	margin-top: 30px;
 }
 #header {
-	background: #f4f6f6;
+	background: #18191e;
 	padding: 50px 0;
 	margin-bottom: 30px;
 }
+#header h1 {
+	font-size: 42px;
+	color: #FFF9FB;
+}
 #header h2 {
-	color: #95a5a6;
+  text-transform: uppercase;
+	color: #949292;
 	font-size: 24px;
 }
 #content h3 {
-	color: #f1c40f;
+	color: #949292;
 	font-size: 26px;
 	margin-top: -4px;
 }
@@ -99,8 +104,9 @@ h4 span:first-child {
 	font-weight: bold;
 }
 #education .area:before {
-	content: "\f0d7";
-	font: 16px Octicons;
+	content: "❯";
+	color: #949292;
+	font: 16px;
 	margin-right: 6px;
 }
 #education .studyType {
@@ -124,7 +130,7 @@ h4 span:first-child {
 	}
 	.strike-through span,
 	.strike-through a {
-		background: #fff;
+		background: #FFF9FB;
 		position: absolute;
 	}
 	.strike-through span:first-child {

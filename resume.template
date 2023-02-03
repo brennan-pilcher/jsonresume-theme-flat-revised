@@ -130,7 +130,7 @@
 				<h4 class="strike-through">
 					<span>{{company}}</span>
 					<span class="date">
-						{{startDate}} — {{endDate}}
+						{{MY startDate}} — {{MY endDate}}
 					</span>
 				</h4>
 				{{#website}}
@@ -149,7 +149,6 @@
 				</div>
 				{{/summary}}
 				{{#if highlights.length}}
-				<h4>Highlights</h4>
 				<ul class="highlights">
 					{{#highlights}}
 					<li class="bullet">{{.}}</li>
@@ -175,7 +174,7 @@
 				<h4 class="strike-through">
 					<span>{{organization}}</span>
 					<span class="date">
-						{{startDate}} — {{endDate}}
+						{{MY startDate}} — {{MY endDate}}
 					</span>
 				</h4>
 				{{#website}}
@@ -220,7 +219,7 @@
 				<h4 class="strike-through">
 					<span>{{institution}}</span>
 					<span class="date">
-						{{startDate}} — {{endDate}}
+						{{MY startDate}} — {{MY endDate}}
 					</span>
 				</h4>
 				{{#area}}
