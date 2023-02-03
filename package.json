@@ -2,16 +2,17 @@
   "name": "jsonresume-theme-flat-revised",
   "version": "0.0.1",
   "description": "A theme for JSON Resume, forked from Mattias Erming's Flat theme",
-  "author": "Mattias Erming",
+  "author": "Brennan Pilcher",
   "repository": {
     "type": "git",
-    "url": "http://github.com/brennan-pilcher/jsonresume-theme-flat-revised"
+    "url": "https://github.com/brennan-pilcher/jsonresume-theme-flat-revised"
   },
   "scripts": {
     "start": "resume serve"
   },
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4"
+    "handlebars": "^2.0.0-alpha.4",
+    "resume-cli": "^3.0.8"
   },
   "license": "MIT"
 }
