@@ -1,5 +1,7 @@
 var fs = require("fs");
 var Handlebars = require("handlebars");
+var moment = require("moment");
+
 
 module.exports = {
 	render: render
